@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-26T01:40:44Z" name="Default suite" finished-at="2020-03-26T01:41:00Z" duration-ms="16627">
+    <groups>
+    </groups>
+    <test started-at="2020-03-26T01:40:44Z" name="Default test" finished-at="2020-03-26T01:41:00Z" duration-ms="16627">
+      <class name="com.example.demo.tdd.LoginUITest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.example.demo.tdd.LoginUITest@6e0dec4a]" started-at="2020-03-26T01:40:44Z" name="initDriver" finished-at="2020-03-26T01:40:44Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:com.example.demo.tdd.LoginUITest@6e0dec4a]" started-at="2020-03-26T01:40:44Z" name="LaunchBrowser" finished-at="2020-03-26T01:40:57Z" duration-ms="13301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="ValidLogin()[pri:0, instance:com.example.demo.tdd.LoginUITest@6e0dec4a]" started-at="2020-03-26T01:40:57Z" name="ValidLogin" finished-at="2020-03-26T01:40:58Z" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method signature="TxnMoney()[pri:1, instance:com.example.demo.tdd.LoginUITest@6e0dec4a]" started-at="2020-03-26T01:40:58Z" name="TxnMoney" finished-at="2020-03-26T01:41:00Z" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TxnMoney -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.example.demo.tdd.LoginUITest@6e0dec4a]" started-at="2020-03-26T01:41:00Z" name="terminateBrowser" finished-at="2020-03-26T01:41:00Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.example.demo.tdd.LoginUITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
