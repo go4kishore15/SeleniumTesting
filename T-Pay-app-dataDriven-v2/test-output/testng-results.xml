@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-28T07:05:05Z" name="Default suite" finished-at="2020-03-28T07:05:26Z" duration-ms="20334">
+    <groups>
+    </groups>
+    <test started-at="2020-03-28T07:05:05Z" name="Default test" finished-at="2020-03-28T07:05:26Z" duration-ms="20334">
+      <class name="com.example.demo.tdd.LoginUITest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.example.demo.tdd.LoginUITest@1c93084c]" started-at="2020-03-28T07:05:05Z" name="initDriver" finished-at="2020-03-28T07:05:05Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.example.demo.tdd.LoginUITest@1c93084c]" started-at="2020-03-28T07:05:06Z" name="launchBrowser" finished-at="2020-03-28T07:05:19Z" duration-ms="13177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="ValidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.example.demo.tdd.LoginUITest@1c93084c]" started-at="2020-03-28T07:05:20Z" name="ValidLogin" data-provider="user_credentials" finished-at="2020-03-28T07:05:21Z" duration-ms="1244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="logoutMethod()[pri:0, instance:com.example.demo.tdd.LoginUITest@1c93084c]" started-at="2020-03-28T07:05:21Z" name="logoutMethod" finished-at="2020-03-28T07:05:22Z" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutMethod -->
+        <test-method signature="ValidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.example.demo.tdd.LoginUITest@1c93084c]" started-at="2020-03-28T07:05:22Z" name="ValidLogin" data-provider="user_credentials" finished-at="2020-03-28T07:05:23Z" duration-ms="1342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user2pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="logoutMethod()[pri:0, instance:com.example.demo.tdd.LoginUITest@1c93084c]" started-at="2020-03-28T07:05:23Z" name="logoutMethod" finished-at="2020-03-28T07:05:23Z" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutMethod -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.example.demo.tdd.LoginUITest@1c93084c]" started-at="2020-03-28T07:05:23Z" name="terminateBrowser" finished-at="2020-03-28T07:05:26Z" duration-ms="2473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.example.demo.tdd.LoginUITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

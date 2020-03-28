@@ -1,0 +1,18 @@
+
+
+
+
+java language naming convention
+---------------------------------
+
+
+keywords  ==> lower-case
+package-names  ==> lower-case
+Type Names ( class | interface | enum | annotation ) ==> pascal-case e.g A___B___C___
+variable/method   ==> camel-case  e.g ______B_____C_____
+constants  ==> upper-case
+
+
+
+
+
