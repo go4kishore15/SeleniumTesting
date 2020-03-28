@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>T-pay</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+</head>
+<body class="container">
+	
+	<hr />
+	<h1>T-pay</h1>
+	<hr />
+	
+	<div class="row">
+	
+	<div class="col-6 col-sm-6 col-md-6">
+	
+	<div class="container">
+		<form class="form-signin" method="post" action="/login">
+		<hr/>
+		Login
+		<hr/>
+			<p>
+				<label for="username" class="sr-only">Username</label> 
+				<input
+					type="text" id="username" 
+					name="username" 
+					class="form-control"
+					placeholder="Username" required>
+			</p>
+			<p>
+				<label for="password" class="sr-only">Password</label> 
+				<input
+					type="password" 
+					id="password" 
+					name="password" 
+					class="form-control"
+					placeholder="Password" required>
+			</p>
+			<button class="btn btn-lg btn-primary btn-block" 
+					type="submit">
+					login
+			</button>
+		</form>
+	</div>
+	
+	<hr/>
+		<table class="table table-bordered">
+			<tr><th>User</th><th>Password</th></tr>
+			<tr><td>user1</td><td>user1pass</td></tr>
+			<tr><td>user2</td><td>user2pass</td></tr>
+		</table>
+	<hr/>
+	
+	</div>
+	
+	</div>
+
+</body>
+</html>
