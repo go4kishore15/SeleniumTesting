@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="headless-browser-test(failed)">
+    <parameter name="browser" value="headless"/>
+    <classes>
+      <class name="com.example.demo.tdd.LoginUITest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="ValidLogin"/>
+          <include name="logoutMethod"/>
+          <include name="terminateBrowser"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- com.example.demo.tdd.LoginUITest -->
+    </classes>
+  </test> <!-- headless-browser-test(failed) -->
+  <test thread-count="5" parallel="tests" name="firefox-test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.example.demo.tdd.LoginUITest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="ValidLogin"/>
+          <include name="logoutMethod"/>
+          <include name="terminateBrowser"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- com.example.demo.tdd.LoginUITest -->
+    </classes>
+  </test> <!-- firefox-test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

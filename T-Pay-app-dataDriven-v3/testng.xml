@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test thread-count="5" name="chrome-test">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.example.demo.tdd.LoginUITest" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="firefox-test">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.example.demo.tdd.LoginUITest" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="headless-browser-test">
+	<parameter name="browser" value="headless"></parameter>
+		<classes>
+			<class name="com.example.demo.tdd.LoginUITest" />
+		</classes>
+	</test>
+	
+</suite> 
